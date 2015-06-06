@@ -1,0 +1,113 @@
+/* --------- Left columns --------- */
+#xo-canvas-leftcolumn { 
+	background-color:transparent ;
+	width : 170px;
+	margin: 0;
+	font-family: Tahoma,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	padding-top:2px;
+    
+}
+
+#xo-canvas-leftcolumn h3.xo-blocktitle { 
+    background:					url("../img/left.png") no-repeat;
+    font-size: 12px;
+    margin-left:  6px ;
+	padding: 6px;  
+	text-align: center;
+	font-weight: bold;  
+	height:25px
+	 
+    
+}
+
+#xo-canvas-leftcolumn .xo-blockcontent { 
+	padding: 3px;
+	padding: 0 12px 8px 0;
+	padding-left: 8px;
+}
+
+
+
+/* --------- Right columns --------- */
+#xo-canvas-rightcolumn {
+	padding: 10px;
+	width : 170px;
+	padding-top:1px;
+	padding-left: 1px;
+	margin-right:2px;
+	
+	
+}
+#xo-canvas-rightcolumn h3.xo-blocktitle {
+	color: #404040; 
+	margin-top: 0;
+	padding-bottom: 8px;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	background:					url("../img/right.png") no-repeat;
+	 margin-left:  10px ;
+	 padding-top:5px;
+	 height:25px
+	
+}
+#xo-canvas-rightcolumn .xo-blockcontent { 
+	color: #666666;
+	padding-left: 8px;
+	padding-bottom: 15px;
+	border-left: 1px dashed  #FFB5C5;
+	padding-left:2px;
+}
+
+/* --------- Center blocks --------- */
+#xo-page .xo-block {
+  margin: 1px;
+ 
+
+ 
+ 
+}
+#xo-topcenterblocks, #xo-bottomcenterblocks {}
+#xo-topcenterblocks h3.xo-blocktitle, #xo-bottomcenterblocks h3.xo-blocktitle {
+  margin: 2px;
+  padding-left: 20px;
+  color :#1A1A1A;
+  font-weight: bold;
+  background: 				url("../img/h.png") repeat-x;
+ 
+  
+}
+#xo-topcenterblocks .xo-blockcontent, #xo-bottomcenterblocks .xo-blockcontent {
+  
+  margin-bottom: 10px;
+  line-height: 1.3em;
+  text-align: justify;
+  
+}
+#xo-topleftblocks, #xo-bottomleftblocks, #xo-toprightblocks, #xo-bottomrightblocks {width : 49.5%;  }
+#xo-topleftblocks h3.xo-blocktitle, #xo-bottomleftblocks h3.xo-blocktitle,
+#xo-toprightblocks h3.xo-blocktitle, #xo-bottomrightblocks h3.xo-blocktitle {
+  margin: 5px;
+  padding-left: 10px;
+  color: #1A1A1A;
+  font-weight: bold;
+   background: 				url("../img/h.png") repeat-x;
+  padding-left: 20px;
+  
+  
+   
+  
+}
+#xo-topleftblocks .xo-blockcontent, #xo-toprightblocks .xo-blockcontent,
+#xo-bottomleftblocks .xo-blockcontent, #xo-bottomrightblocks .xo-blockcontent {
+  margin-bottom: 10px;
+  line-height: 1.3em;
+  text-align: justify;  
+}
+
+#xo-topleftblocks{border-right: 1px solid  #A020F0;  }
+ #xo-bottomrightblocks {border-left: 1px solid  #A020F0;}
+
+
